@@ -1,11 +1,7 @@
-function addThemAll() {
-    var count = 0;
-    for (var i = 0; i < arguments.length; ++i) {
-        count += arguments[i];
-    }
-    return count;
-}
+var array = [1, 2, 3, 4];
+array.length++;
+console.log(array);
 
-var a = addThemAll(1, 2, 3, 4);
+array.reverse();
 
-console.log(a);
+console.log(array);
