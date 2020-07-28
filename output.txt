@@ -1,0 +1,3 @@
+./build/bin/gcn --feature_file=./dataset/gcn/citeseer.svmlight --graph_file=./dataset/gcn/citeseer.graph --split_file=./dataset/gcn/citeseer.split
+
+./bin/gcn --feature_file=../dataset/gcn/citeseer.svmlight --graph_file=../dataset/gcn/citeseer.graph --split_file=../dataset/gcn/citeseer.split
